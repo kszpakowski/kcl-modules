@@ -4,6 +4,7 @@ import ..xcell as xcell
 makeVPC = lambda cell: xcell.xCell {
     ec2.VPC {
         metadata: {
+            name: cell.metadata.name + "-vpc"
             annotations: {
                 "crossplane.io/composition-resource-name": "vpc"
             }
