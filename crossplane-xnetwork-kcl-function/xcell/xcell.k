@@ -4,6 +4,7 @@ schema xCellMetadata:
 
 schema xCellSpec:
     region: str
+    [...str]: any
 
 schema xCell:
     apiVersion: "infra.kszpakowski.com/v1alpha1"
