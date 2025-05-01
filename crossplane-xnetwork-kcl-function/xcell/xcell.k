@@ -1,5 +1,7 @@
 schema xCellMetadata:
     name: str
+    [...str]: any
+
 schema xCellSpec:
     region: str
 
