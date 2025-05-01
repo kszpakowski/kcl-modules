@@ -3,3 +3,5 @@
     name = "provider_aws_ec2"
     full_name = "provider_aws_ec2_0.0.1"
     version = "0.0.1"
+    url = "https://github.com/kszpakowski/kcl-modules"
+    commit = "256715c"
