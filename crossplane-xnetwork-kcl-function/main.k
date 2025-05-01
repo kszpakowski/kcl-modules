@@ -1,3 +1,6 @@
 import vpc
+import xcell
 
-items = [vpc._vpc]
+oxr: xcell.xCell = option("params")?.oxr
+
+items = [vpc.makeVPC(oxr)]
