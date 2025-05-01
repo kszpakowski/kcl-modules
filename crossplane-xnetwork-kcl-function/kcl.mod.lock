@@ -1,0 +1,5 @@
+[dependencies]
+  [dependencies.provider_aws_ec2]
+    name = "provider_aws_ec2"
+    full_name = "provider_aws_ec2_0.0.1"
+    version = "0.0.1"
